@@ -4,7 +4,11 @@
   "description": "private npm pakcage",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --config config/webpack.dev.js",
+    "build": "webpack --config config/webpack.product.js",
+    "pub": "npm run build && npm publish",
+    "lint": "eslint --ext .js --ext .jsx src",
+    "lint:fix": "npm run lint -- --fix"
   },
   "repository": {
     "type": "git",
