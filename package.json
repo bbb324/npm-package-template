@@ -1,0 +1,51 @@
+{
+  "name": "npm-package-template",
+  "version": "1.0.0",
+  "description": "private npm pakcage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbb324/npm-package-template.git"
+  },
+  "peerDependencies": {
+    "react": "16.x",
+    "react-dom": "16.x",
+    "antd": "^4.4.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^3.2.0",
+    "eslint": "^5.13.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-react": "^7.12.4",
+
+    "react": "16.x",
+    "react-dom": "16.x",
+
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "style-loader": "^1.0.0",
+
+
+    "webpack": "^5.x",
+    "webpack-cli": "^4.x",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.x"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbb324/npm-package-template/issues"
+  },
+  "homepage": "https://github.com/bbb324/npm-package-template#readme"
+}
